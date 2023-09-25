@@ -20,8 +20,6 @@
     .container {
         width: 80%;
         margin: 0 auto;
-        /* Debug */
-        border: 1px solid black;
     }
 
     .small-container {
@@ -35,19 +33,24 @@
         background-color: var(--btn-color);
         padding: 2px 6px;
         color: white;
+        display: inline-block;
     }
 
     body {
         font-family: "Open Sans", sans-serif;
+        padding-top: 60px;
     }
 
 /* HEADER */
 
     header {
-        /* Debug */
-        background-color: lightgreen;
+        background-color: var(--bck-color);
+        min-width: 1140px;
     }
 
+    header .container{
+        padding: 2rem 0;
+    }
     /* Header nav */
 
     header nav {
@@ -60,6 +63,9 @@
         font-size: small;
         padding: 0 10px;
         background-color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
     }
 
     .right-nav {
@@ -84,25 +90,44 @@
 
     /* Header hero */
 
+    h1 {
+        font-size: 3.5rem;
+    }
+
     .hero {
         display: flex;
         width: 100%;
-        /* Debug */
-        height: 300px;
+        font-size: small;
+        position: relative;
+        bottom:-6rem;
+    }
+
+    .text-hero p {
+        margin-bottom: 1.5rem;
+    }
+
+    .text-hero a {
+        text-decoration: none;
+        padding: 0.7rem;
     }
 
     .text-hero {
-        /* Debug */
-        width: 35%;
-        background-color: lightsalmon;
-        border: 2px solid red;
+        margin-right: 1.5rem;
+        min-height: 350px;
     }
 
-    .img-hero {
-        width: 65%;
-        background-color: lightsalmon;
-        border: 2px solid red;
+    .text-hero i {
+        font-size: 2.5rem;
+        margin-top:1rem ;
     }
+
+    main::before {
+        content: "";
+        display: block;
+        width: 100%;
+        min-height: 5rem
+    }
+    
 
 /* MAIN */
 
