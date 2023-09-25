@@ -241,23 +241,28 @@
 
     .find-partner {
         display: flex;
-        /* Debug */
-        height: 400px;
-        background-color: lightskyblue;
-        margin-top: 4rem;
+        margin: 6rem 0;
     }
 
     .contact-img {
         width: 60%;
-        /* Debug */
-        background-color: lightgreen;
-        border: 1px solid black;
     }
 
     .contact-text {
         width: 40%;
-        /* Debug */
-        background-color: aquamarine;
+        padding: 2.5rem;
+        text-align:left;
+    }
+
+    .contact-text p {
+        margin-bottom: 3rem;
+    }
+
+    .contact-text a {
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        padding: 0.8rem 1rem;
     }
 
     /* Section three */
