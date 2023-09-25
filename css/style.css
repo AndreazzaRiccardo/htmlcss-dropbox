@@ -9,3 +9,225 @@
     img {
         max-width: 100%;
     }
+
+/* COMMON */
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        /* Debug */
+        border: 1px solid black;
+    }
+
+    .small-container {
+        width: 70%;
+        margin: 0 auto;
+        /* Debug */
+        border: 1px solid black;
+    }
+
+/* HEADER */
+
+    header {
+        /* Debug */
+        background-color: lightgreen;
+    }
+
+    /* Header nav */
+
+    header nav {
+        height: 60px;
+        z-index: 999;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* Debug */
+        background-color: lightblue;
+    }
+
+    .right-nav {
+        /* Debug */
+        background-color: lightpink;
+        width: 30%
+    }
+
+    .left-nav {
+        /* Debug */
+        background-color: lightpink;
+        width: 30%
+    }
+
+    /* Header hero */
+
+    .hero {
+        display: flex;
+        width: 100%;
+        /* Debug */
+        height: 300px;
+    }
+
+    .text-hero {
+        /* Debug */
+        width: 35%;
+        background-color: lightsalmon;
+        border: 2px solid red;
+    }
+
+    .img-hero {
+        width: 65%;
+        background-color: lightsalmon;
+        border: 2px solid red;
+    }
+
+/* MAIN */
+
+    /* Section one */
+
+    .plans-section {
+        display: flex;
+        gap: 1rem;
+        /* Debug */
+        border: 1px solid black;
+        height: 700px;
+    }
+
+    .plans-card {
+        width: 100%;
+        /* Debug */
+        background-color: lightseagreen;
+        border: 1px solid red;
+        width: calc(100% / 3);
+    }
+
+    .enterprise-card {
+        width: 100%;
+        /* Debug */
+        height: 200px;
+        background-color: lightseagreen;
+        margin-top: 2rem;
+    }
+
+    /* Section two */
+
+    .find-partner {
+        display: flex;
+        /* Debug */
+        height: 400px;
+        background-color: lightskyblue;
+        margin-top: 4rem;
+    }
+
+    .contact-img {
+        width: 60%;
+        /* Debug */
+        background-color: lightgreen;
+        border: 1px solid black;
+    }
+
+    .contact-text {
+        width: 40%;
+        /* Debug */
+        background-color: aquamarine;
+    }
+
+    /* Section three */
+
+    .operations-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 100%;
+        /* Debug */
+        background-color: lightslategray;
+        height: 700px;
+    }
+
+    .operations-card {
+        width:calc(100% / 3 - 2rem / 3) ;
+        /* Debug */
+        background-color: aqua;
+    }
+
+    /* Section four */
+
+    .section-four {
+        width: 100%;
+        /* Debug */
+        background-color: lightgreen;
+        height: 200px;
+        margin-top: 3rem;
+    }
+
+    /* Adv section */
+
+    .adv-section {
+        display: flex;
+        width: 100%;
+        /* Debug */
+        height: 400px;
+    }
+
+    .adv-card {
+        width: calc(100% / 3);
+        /* Debug */
+        background-color: azure;
+        border: 1px solid black;
+    }
+
+    /* Section five */
+
+    .free-trial {
+        width: 100%;
+        /* Debug */
+        background-color: lightskyblue;
+        height: 200px;
+    }
+
+    /* Ask section */
+
+    .ask-box {
+        width: 100%;
+        /* Debug */
+        height: 300px;
+    }
+
+    .ask-row {
+        width: 100%;
+        height: calc(100% / 3);
+        /* Debug */
+        border: 1px solid black;
+    }
+
+/* FOOTER */
+
+    footer {
+        /* Debug */
+        background-color: black;
+        height: 400px;
+    }
+
+    /* Top footer */
+
+    .top-footer {
+        display: flex;
+        /* Debug */
+        height: 80%;
+    }
+
+    .col-footer {
+        /* Debug */
+        background-color: lightblue;
+        border: 1px solid white;
+        width: calc(100% / 5);
+        height: 250px;
+    }
+
+    .bottom-footer {
+        /* Debug */
+        border: 1px solid white;
+        height: 100px;
+        margin-top: 2rem;
+    }
+
+
+
