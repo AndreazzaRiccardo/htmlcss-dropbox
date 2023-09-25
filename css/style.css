@@ -98,6 +98,10 @@
         color: black;
     }
 
+    .left-nav a:last-child {
+        padding: 0.3rem 0.9rem;
+    }
+
     nav ul {
         display: flex;
         justify-content: space-between;
@@ -272,15 +276,14 @@
         flex-wrap: wrap;
         gap: 1rem;
         width: 100%;
-        /* Debug */
-        background-color: lightslategray;
-        height: 700px;
     }
 
     .operations-card {
         width:calc(100% / 3 - 2rem / 3) ;
-        /* Debug */
-        background-color: aqua;
+    }
+
+    .operations-card p {
+        margin-top: 1.5rem;
     }
 
     /* Section four */
