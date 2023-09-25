@@ -12,6 +12,11 @@
 
 /* COMMON */
 
+    :root {
+        --btn-color:#0061FF;
+        --bck-color: #B4D0E7;
+    }
+
     .container {
         width: 80%;
         margin: 0 auto;
@@ -24,6 +29,16 @@
         margin: 0 auto;
         /* Debug */
         border: 1px solid black;
+    }
+
+    .blu-btn {
+        background-color: var(--btn-color);
+        padding: 2px 6px;
+        color: white;
+    }
+
+    body {
+        font-family: "Open Sans", sans-serif;
     }
 
 /* HEADER */
@@ -41,20 +56,30 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        /* Debug */
-        background-color: lightblue;
+        align-items: center;
+        font-size: small;
+        padding: 0 10px;
+        background-color: white;
     }
 
     .right-nav {
-        /* Debug */
-        background-color: lightpink;
-        width: 30%
+        width: 40%;
     }
 
     .left-nav {
-        /* Debug */
-        background-color: lightpink;
-        width: 30%
+        width: 30%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /* Header hero */
