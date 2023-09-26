@@ -24,7 +24,7 @@
     }
 
     .small-container {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
         max-width: 1000px;
     }
@@ -145,6 +145,7 @@
     .text-hero i {
         font-size: 2.5rem;
         margin-top:1rem ;
+        color: black;
     }
 
     main::before {
@@ -300,36 +301,114 @@
     /* Section four */
 
     .section-four {
-        width: 100%;
-        /* Debug */
-        background-color: lightgreen;
-        height: 200px;
-        margin-top: 3rem;
+        margin: 6rem 0 6rem;
+    }
+
+    .section-four a {
+        color: var(--btn-color);
     }
 
     /* Adv section */
 
     .adv-section {
         display: flex;
-        width: 100%;
-        /* Debug */
-        height: 400px;
     }
 
-    .adv-card {
+    .adv-card-img {
+        display: flex;
+        flex-wrap: wrap;
         width: calc(100% / 3);
-        /* Debug */
-        background-color: azure;
-        border: 1px solid black;
+    }
+
+    .text-adv * {
+        margin-bottom: 2rem;
+    }
+
+    .text-adv {
+        width: calc(100% / 3);
+        padding: 1.5rem;
+        font-size: small;
+        overflow: auto;
+        height: 350px;
+    }
+
+    .text-adv hr {
+        width: 20%;
+    }
+
+    .text-adv img {
+        height: 3.5rem;
+    }
+
+    .adv-card-img div {
+        padding: 3rem;
+        width: calc(100% / 2);
+        height: calc(100% / 2);
+    }
+
+    .adv-card-img img{
+        filter: invert(100%);
+        position: relative;
+        transform:translate(-50%,-50%) ;
+        left: 50%;
+        top:50%
+    }
+
+    .adv-design {
+        background-color: #A2D39B;
+        border: 10px solid #D1E9CD;
+    }
+
+    .adv-uf {
+        background-color: #0093CE;
+    }
+
+    .adv-asu {
+        background-color: #61082B;
+    }
+
+    .adv-topps {
+        background-color: #FF1C1C;
+    }
+
+    .adv-wbr {
+        background-color: #D5001F;
+    }
+
+    .adv-hearst {
+        background-color: #B4D0E7;
+    }
+
+    .adv-lonely {
+        background-color: #0D2481;
+    }
+
+    .adv-clear {
+        background-color: #FFD830;
     }
 
     /* CTA section */
 
     .free-trial {
-        width: 100%;
-        /* Debug */
-        background-color: lightskyblue;
-        height: 200px;
+        background-color: #B4D0E7;
+        padding: 5rem 0;
+    }
+
+    .free-trial .small-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .free-trial h3 {
+        font-size: 2rem;
+        color:#610E33 ;
+    }
+
+    .free-trial a {
+        text-decoration: none;
+        background-color: white;
+        height: 100%;
+        padding: 0.5rem 2.5rem;
     }
 
     /* Ask section */
