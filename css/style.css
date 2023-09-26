@@ -114,7 +114,7 @@
 
     nav ul {
         display: flex;
-        justify-content: space-between;
+        gap: 2rem;
         align-items: center;
     }
 
@@ -423,6 +423,7 @@
 
     .ask-container {
         padding: 8rem 0;
+        height: 37rem;
     }
 
     .ask-container h2 {
@@ -471,32 +472,48 @@
 /* FOOTER */
 
     footer {
-        /* Debug */
         background-color: black;
-        height: 400px;
     }
 
     /* Top footer */
 
     .top-footer {
         display: flex;
-        /* Debug */
-        height: 80%;
+        padding: 3rem 0;
     }
 
     .col-footer {
-        /* Debug */
-        background-color: lightblue;
-        border: 1px solid white;
+        color: white;
         width: calc(100% / 5);
-        height: 250px;
     }
 
+    .col-footer h5 {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .col-footer li {
+        margin-bottom: 0.5rem;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+        font-size: small;
+    }
+
+    footer hr {
+        width: 10%;
+    }
+
+    /* Bottom footer */
+
     .bottom-footer {
-        /* Debug */
-        border: 1px solid white;
-        height: 100px;
-        margin-top: 2rem;
+        padding: 2rem 0;
+    }
+
+    .bottom-footer span {
+        margin: 0 0.5rem;
     }
 
 
