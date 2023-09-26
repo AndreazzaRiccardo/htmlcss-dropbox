@@ -105,7 +105,9 @@
     }
 
     .text-under:hover {
-       border-bottom: 2px solid black;
+       border-bottom: 3px solid black;
+       display: block;
+        line-height: 60px;
     }
 
     .left-nav .blu-btn {
@@ -337,7 +339,7 @@
         padding: 1.5rem;
         font-size: small;
         overflow: auto;
-        height: 350px;
+        aspect-ratio: 1/1;
     }
 
     .text-adv hr {
@@ -351,7 +353,7 @@
     .adv-card-img div {
         padding: 3rem;
         width: calc(100% / 2);
-        height: calc(100% / 2);
+        aspect-ratio: 1/1;
     }
 
     .adv-card-img img{
