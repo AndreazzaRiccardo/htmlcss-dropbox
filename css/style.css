@@ -20,11 +20,13 @@
     .container {
         width: 80%;
         margin: 0 auto;
+        max-width: 1100px;
     }
 
     .small-container {
         width: 70%;
         margin: 0 auto;
+        max-width: 1000px;
     }
 
     .blu-btn {
@@ -98,7 +100,11 @@
         color: black;
     }
 
-    .left-nav a:last-child {
+    .text-under:hover {
+       border-bottom: 2px solid black;
+    }
+
+    .left-nav .blu-btn {
         padding: 0.3rem 0.9rem;
     }
 
@@ -198,6 +204,8 @@
 
     .card li {
         margin-top: 1.5rem;
+        display: flex;
+        gap: 0.5rem;
     }
 
     .fa-check {
@@ -208,6 +216,8 @@
     p>a {
         color: var(--btn-color);
     }
+
+
 
     /* Enterprise */
 
@@ -246,6 +256,7 @@
     .find-partner {
         display: flex;
         margin: 6rem 0;
+        align-items: center;
     }
 
     .contact-img {
@@ -312,7 +323,7 @@
         border: 1px solid black;
     }
 
-    /* Section five */
+    /* CTA section */
 
     .free-trial {
         width: 100%;
