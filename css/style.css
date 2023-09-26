@@ -39,6 +39,10 @@
         text-align: center;
     }
 
+    .blu-btn:hover {
+        opacity: 70%;
+    }
+
     body {
         font-family: "Open Sans", sans-serif;
         padding-top: 60px;
@@ -281,6 +285,10 @@
         padding: 0.8rem 1rem;
     }
 
+    .contact-text a:hover {
+        opacity: 70%;
+    }
+
     /* Section three */
 
     .operations-section {
@@ -413,17 +421,51 @@
 
     /* Ask section */
 
+    .ask-container {
+        padding: 8rem 0;
+    }
+
+    .ask-container h2 {
+        font-size: 2rem;
+    }
+
     .ask-box {
         width: 100%;
-        /* Debug */
-        height: 300px;
     }
 
     .ask-row {
         width: 100%;
         height: calc(100% / 3);
-        /* Debug */
-        border: 1px solid black;
+        margin:1.5rem 0;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+        font-weight: bolder;
+        align-items: center;
+        cursor:pointer;
+    }
+
+    .answer {
+        margin-top: 2rem;
+        display: none;
+    }
+
+    .ask-row:hover .answer {
+        display: block;
+    }
+
+    .ask-row:hover .angle-up {
+        display: block;
+    }
+
+    .ask-row:hover .angle-down {
+        display: none;
+    }
+
+    .angle-up {
+        display: none;
     }
 
 /* FOOTER */
