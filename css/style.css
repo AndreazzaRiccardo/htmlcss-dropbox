@@ -40,7 +40,7 @@
     }
 
     .blu-btn:hover {
-        opacity: 70%;
+        filter: brightness(1.4);
     }
 
     body {
@@ -74,6 +74,7 @@
     header .container{
         padding: 2rem 0;
     }
+
     /* Header nav */
 
     header nav {
@@ -81,7 +82,6 @@
         z-index: 999;
         width: 100%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
         font-size: small;
         padding: 0 10px;
@@ -92,22 +92,27 @@
     }
 
     .right-nav {
-        width: 40%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
 
     .left-nav {
-        width: 30%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
 
     nav a {
         text-decoration: none;
         color: black;
+        font-size:small;
     }
 
     .text-under:hover {
        border-bottom: 3px solid black;
        display: block;
-        line-height: 60px;
+       line-height:60px;
     }
 
     .left-nav .blu-btn {
@@ -116,14 +121,14 @@
 
     nav ul {
         display: flex;
-        gap: 2rem;
+        gap: 3rem;
         align-items: center;
     }
 
     /* Header hero */
 
     h1 {
-        font-size: 3.5rem;
+        font-size:clamp(40px, calc(3vw + 1rem),60px);
     }
 
     .hero {
@@ -150,7 +155,7 @@
 
     .text-hero i {
         font-size: 2.5rem;
-        margin-top:1rem ;
+        margin-top:4rem ;
         color: black;
     }
 
@@ -164,9 +169,9 @@
 
 /* MAIN */
 
-    /* Section one */
+    /* Plans section */
 
-    main input:last-child {
+    #annual {
         margin-left: 3rem;
     }
 
@@ -224,8 +229,6 @@
         color: var(--btn-color);
     }
 
-
-
     /* Enterprise */
 
     .enterprise-title {
@@ -258,7 +261,7 @@
         padding: 0.3rem 2rem;
     }
 
-    /* Section two */
+    /* Find partner section */
 
     .find-partner {
         display: flex;
@@ -285,30 +288,31 @@
         color: black;
         border: 1px solid black;
         padding: 0.8rem 1rem;
+        display: inline-block;
     }
 
     .contact-text a:hover {
         opacity: 70%;
     }
 
-    /* Section three */
+    /* Operations section */
 
     .operations-section {
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 1.5rem;
         width: 100%;
     }
 
     .operations-card {
-        width:calc(100% / 3 - 2rem / 3) ;
+        width:calc(100% / 3 - 3rem / 3) ;
     }
 
     .operations-card p {
         margin-top: 1.5rem;
     }
 
-    /* Section four */
+    /* Discovery section */
 
     .section-four {
         margin: 6rem 0 6rem;
@@ -336,9 +340,9 @@
 
     .text-adv {
         width: calc(100% / 3);
-        padding: 1.5rem;
+        padding: 4rem;
         font-size: small;
-        overflow: auto;
+        overflow-y: auto;
         aspect-ratio: 1/1;
     }
 
@@ -347,7 +351,7 @@
     }
 
     .text-adv img {
-        height: 3.5rem;
+        height: 80px;
     }
 
     .adv-card-img div {
@@ -502,6 +506,10 @@
         text-decoration: none;
         color: white;
         font-size: small;
+    }
+
+    .top-footer a:hover {
+        text-decoration: underline;
     }
 
     footer hr {
