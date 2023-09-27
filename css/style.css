@@ -185,7 +185,7 @@
 
     .plans-card {
         width: calc(100% / 3);
-        border: 1px solid lightslategray;
+        border: 1px solid #DBDBDD;
     }
 
     .card-title {
@@ -194,7 +194,7 @@
         align-items: center;
         gap: 0.5rem;
         padding: 0.5rem;
-        border-bottom: 1px solid lightslategray;
+        border-bottom: 1px solid #DBDBDD;
     }
 
     .card {
@@ -206,6 +206,7 @@
 
     .card hr {
         width: 20%;
+        margin:2rem 0;
     }
 
     .top-card {
@@ -234,12 +235,12 @@
 
     .enterprise-title {
         text-align: center;
-        border-bottom:1px solid lightslategray ;
+        border-bottom:1px solid #DBDBDD ;
         padding: 0.7rem;
     }
 
     .enterprise {
-        border: 1px solid lightslategray;
+        border: 1px solid #DBDBDD;
         margin-top: 2.5rem;
     }
 
