@@ -140,7 +140,7 @@
     }
 
     .text-hero p {
-        margin-bottom: 1.5rem;
+        margin-bottom: 10%;
     }
 
     .text-hero a {
@@ -155,8 +155,9 @@
 
     .text-hero i {
         font-size: 2.5rem;
-        margin-top:4rem ;
         color: black;
+        position: absolute;
+        bottom:24%;
     }
 
     main::before {
@@ -355,7 +356,7 @@
     }
 
     .adv-card-img div {
-        padding: 3rem;
+        padding: 10%;
         width: calc(100% / 2);
         aspect-ratio: 1/1;
     }
@@ -370,35 +371,66 @@
 
     .adv-design {
         background-color: #A2D39B;
-        border: 10px solid #D1E9CD;
+    }
+
+    .adv-design:hover {
+        border:10px ridge #A2D39B;
     }
 
     .adv-uf {
         background-color: #0093CE;
     }
 
+    .adv-uf:hover {
+        border:10px ridge #0093CE;
+    }
+
     .adv-asu {
         background-color: #61082B;
+    }
+
+    .adv-asu:hover {
+        border:10px ridge #61082B;
     }
 
     .adv-topps {
         background-color: #FF1C1C;
     }
 
+    .adv-topps:hover {
+        border:10px ridge #FF1C1C;
+    }
+
     .adv-wbr {
         background-color: #D5001F;
+    }
+
+    .adv-wbr:hover {
+        border:10px ridge #D5001F;
     }
 
     .adv-hearst {
         background-color: #B4D0E7;
     }
 
+    .adv-hearst:hover {
+        border:10px ridge #B4D0E7;
+    }
+
     .adv-lonely {
         background-color: #0D2481;
     }
 
+    .adv-lonely:hover {
+        border:10px ridge #0D2481;
+    }
+
     .adv-clear {
         background-color: #FFD830;
+    }
+
+    .adv-clear:hover {
+        border:10px ridge #FFD830;
     }
 
     /* CTA section */
@@ -423,6 +455,10 @@
         background-color: white;
         height: 100%;
         padding: 0.5rem 2.5rem;
+    }
+
+    .free-trial a:hover {
+        border: 2px ridge white;
     }
 
     /* Ask section */
