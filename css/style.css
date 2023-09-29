@@ -171,6 +171,27 @@
 /* MAIN */
 
     /* Plans section */
+    
+    /* Check stilization */
+
+    input[type="radio"] {
+        appearance: none;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        border: 1px solid black;
+        vertical-align:middle;
+    }
+
+    label {
+        vertical-align: middle;
+    }
+
+    input[type="radio"]:checked {
+        border: 5px solid var(--btn-color);
+    }
+
+    /* /Check stilization */
 
     #annual {
         margin-left: 3rem;
@@ -334,6 +355,7 @@
         display: flex;
         flex-wrap: wrap;
         width: calc(100% / 3);
+        height: calc(100vw / 3);
     }
 
     .text-adv * {
@@ -345,7 +367,7 @@
         padding: 4rem;
         font-size: small;
         overflow-y: auto;
-        aspect-ratio: 1/1;
+        /* aspect-ratio: 1/1; */
     }
 
     .text-adv hr {
@@ -359,7 +381,8 @@
     .adv-card-img div {
         padding: 10%;
         width: calc(100% / 2);
-        aspect-ratio: 1/1;
+        /* aspect-ratio: 1/1; */
+        height: calc(100% / 2);
     }
 
     .adv-card-img img{
@@ -367,7 +390,7 @@
         position: relative;
         transform:translate(-50%,-50%) ;
         left: 50%;
-        top:50%
+        top:50%;
     }
 
     .adv-design {
